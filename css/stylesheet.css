@@ -4,10 +4,11 @@
 
 .navbar{
     position: fixed;
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(145, 145, 145);
     margin-top: 90px;
     width: 100%;
     z-index: 555;
+    box-shadow: 5px solid white;
 }
 
 .navbar-nav{
