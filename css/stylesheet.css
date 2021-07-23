@@ -4,11 +4,9 @@
 
 .navbar{
     position: fixed;
-    background-color: rgb(145, 145, 145);
-    margin-top: 90px;
+    background-color: rgb(19, 19, 19);
     width: 100%;
     z-index: 555;
-    box-shadow: 5px solid white;
 }
 
 .navbar-nav{
@@ -54,20 +52,16 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
-    background-position: center center;
-    height: 872px;
+    background-position: center;
+    height: 90vh;
     overflow: hidden;
-    margin-top: -100px;
-    padding: 0;
     width: 100%;
 }
 
 
 .name{
     font-size: 7em;
-    position: relative;
     top:330px;
-    left:280px;
     font-family: 'Encode Sans SC', sans-serif;
 font-family: 'Play', sans-serif;
 color: rgb(209, 209, 209);
