@@ -46,7 +46,7 @@
 /*** ***********************title block **************************/
 
 .section_1 {
-  background-image: url("https://images.pexels.com/photos/1787044/pexels-photo-1787044.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url("https://images.pexels.com/photos/1787044/pexels-photo-1787044.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=100%");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -168,16 +168,17 @@ h5 {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: center center;
+  background-position: center;
   margin-top: -270px;
+  overflow-x: hidden;
 }
 
 #contactMe {
-  font-size: 8em;
+  font-size: 60px;
   margin-bottom: -20px;
-  margin-left: 197px;
+  /* margin-left: 197px; */
   color: rgb(184, 184, 184);
-  margin-top: 70px;
+  /* margin-top: 70px; */
   font-family: "Kanit", sans-serif;
   opacity: 0.2;
   letter-spacing: 4px;
@@ -194,13 +195,13 @@ h5 {
 .contact {
   display: flex;
   flex-direction: column;
-  position: relative;
+  /* position: relative; */
   background-image: url("https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=731&q=80");
   background-size: auto, auto;
   background-size: cover;
   height: 500px;
   width: 1520px;
-  margin-top: 70px;
+  /* margin-top: 70px; */
   color: rgb(100, 100, 100);
 }
 
@@ -233,7 +234,7 @@ h5 {
   width: 32%;
   background-color: rgba(211, 211, 211, 0.6);
   margin-top: 22px;
-  margin-left: 484px;
+  /* margin-left: 484px; */
   margin-bottom: 50px;
 }
 
@@ -444,7 +445,7 @@ ul {
   display: flex;
   flex-direction: row;
   padding-top: 10px;
-  margin-left: 550px;
+  /* margin-left: 550px; */
 }
 
 li {
