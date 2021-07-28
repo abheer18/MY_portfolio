@@ -80,8 +80,9 @@
 
 .section_2 {
   background-color: rgb(105, 105, 105);
-  height: 500px;
+  height: 900px;
   width: 100%;
+  overflow: hidden;
 }
 
 #dp {
@@ -90,7 +91,7 @@
   /* margin-left: 61px; */
   border-radius: 200px;
   background-color: rgb(41, 39, 39);
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 #name_intro {
@@ -106,6 +107,7 @@
 .intro {
   /* padding-left: 150px; */
   /* padding-top: 100px; */
+  justify-content: center;
   text-align: justify;
   font-size: 22px;
   color: #fff;
