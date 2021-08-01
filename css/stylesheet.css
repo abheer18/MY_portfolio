@@ -60,33 +60,36 @@
 }
 
 #dp {
-  border-radius: 50px;
-  padding: 1rem;
+  border-radius:206px;
+  /* padding: 1rem; */
   background-color: rgb(41, 39, 39);
 }
 
 .name_intro {
   letter-spacing: 2px;
-  font-size: 40px;
+  font-size: 4rem;
   color: rgb(240, 240, 240);
   font-family: "Kanit", sans-serif;
   opacity: 0.1;
   text-align: center;
+  padding: 20px 0 0 0;
 }
 
+
 .intro {
-  text-align: justify;
+  text-align: start;
   font-size: 22px;
   color: #fff;
   font-family: "Encode Sans SC", sans-serif;
+  padding: 100px 0 0 0;
 }
 
 /******************************** section 3 ************************************/
 
 .section_3 {
   background-color: rgb(199, 199, 199);
-  margin-top: -335px;
-  height: 620px;
+  /* margin-top: -335px; */
+  /* height: 620px; */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -98,15 +101,15 @@
 } */
 
 .skill {
-  margin-left: 242px;
-  justify-items: center;
-  padding-top: 60px;
-  line-height: 500px;
+  /* margin-left: 242px; */
+  /* justify-items: center; */
+  /* padding-top: 60px; */
+  /* line-height: 500px; */
   font-family: "Encode Sans SC", sans-serif;
 }
 
 .progress {
-  width: 70%;
+  width: 50%;
 }
 
 .progress-bar {
@@ -117,14 +120,14 @@
 h5 {
   padding: 5px;
   line-height: 20px;
-  margin-top: 12px;
+  /* margin-top: 12px; */
 }
 
 #skill-head {
-  font-size: 10em;
+  font-size: 3rem;
   font-family: "Kanit", sans-serif;
   opacity: 0.1;
-  margin-left: 600px;
+  /* margin-left: 600px; */
 }
 
 /* ********************section 4 **************************/
@@ -135,13 +138,13 @@ h5 {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  margin-top: -270px;
-  overflow-x: hidden;
+  /* margin-top: -270px; */
+  /* overflow-x: hidden; */
 }
 
 #contactMe {
   font-size: 60px;
-  margin-bottom: -20px;
+  /* margin-bottom: -20px; */
   /* margin-left: 197px; */
   color: rgb(184, 184, 184);
   /* margin-top: 70px; */
@@ -152,11 +155,12 @@ h5 {
 
 @import url("https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:400,700&display=swap");
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+  
+} */
 
 .contact {
   display: flex;
@@ -165,8 +169,8 @@ h5 {
   background-image: url("https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=731&q=80");
   background-size: auto, auto;
   background-size: cover;
-  height: 500px;
-  width: 1520px;
+  /* height: 500px;
+  width: 1520px; */
   /* margin-top: 70px; */
   color: rgb(100, 100, 100);
 }
@@ -193,29 +197,31 @@ h5 {
 
 .contact-content {
   display: flex;
-  justify-content: space-between;
-  align-self: center;
-  line-height: 2;
-  height: 512px;
-  width: 32%;
+ justify-content: center; 
+  align-items: center;
+  /* line-height: 2; */
+/* height: 512px; */
+  /* width: 32%;  */
   background-color: rgba(211, 211, 211, 0.6);
-  margin-top: 22px;
+  /* margin-top: 22px; */
   /* margin-left: 484px; */
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
+  width: 700px;
+  height: 500px;
+  padding-left: 0;
 }
 
 .contact-form {
   font-family: "Montserrat", sans-serif;
-  padding-top: 550px;
 }
 
 #form-title {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 1.2px;
   line-height: 1px;
-  margin-left: 4rem;
+  /* margin-left: 4rem; */
   margin-bottom: 3rem;
 }
 
@@ -281,7 +287,7 @@ textarea,
   align-items: flex-end;
   justify-content: center;
   padding: 5rem;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(192, 20, 20, 0.3);
 }
 
 .contact-info h3 {
@@ -319,7 +325,7 @@ textarea,
   transform: scale(1.2);
   color: #999;
 } */
-
+/* 
 @media screen and (max-width: 960px) {
   .contact-content {
     display: flex;
@@ -397,7 +403,7 @@ textarea,
   #form-btn {
     width: 200%;
   }
-}
+} */
 
 /**************************************** footer ******************************/
 
