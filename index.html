@@ -38,7 +38,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
 
-    <!-- <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet"> -->
+    <link
+      href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
+      rel="stylesheet"
+    />
     <title>Abheer Raj Mehrotra</title>
   </head>
 
@@ -63,10 +66,10 @@
               <a class="nav-link active text-light" href="#stop2">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#skill-head">Skill</a>
+              <a class="nav-link text-light" href="#stop3">Skill</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#stop3">Contact</a>
+              <a class="nav-link text-light" href="#stop4">Contact</a>
             </li>
           </ul>
         </div>
@@ -87,22 +90,32 @@
             >
               <p
                 class="name"
-                data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-duration="800"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="500"
               >
                 Abheer Mehrotra
               </p>
-              <p class="occupation">Frontend web developer</p>
+              <p
+                class="occupation"
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="500"
+              >
+                Frontend web developer
+              </p>
             </div>
             <div class="col-md-5 col-sm-3"></div>
           </div>
+          <div id="stop2"></div>
         </div>
       </div>
     </section>
 
-    <section id="stop2" class="section_2">
-      <h3 class="name_intro">About Me</h3>
+    <section class="section_2">
+      <h3 class="name_intro" data-aos="fade-down" data-aos-duration="800">
+        About Me
+      </h3>
 
       <div class="container">
         <div class="row">
@@ -114,7 +127,7 @@
             />
           </div>
           <div class="col-md-9 my-2">
-            <p class="intro">
+            <p class="intro" data-aos="zoom-in-up" data-aos-duration="800">
               A front-end web developer, with experience of designing graphics
               and editing. I am pursing Bachelors of technology in computer
               science and engineering at Manava Rachna University. I'm contantly
@@ -124,6 +137,7 @@
               web-developer.
             </p>
           </div>
+          <div id="stop3"></div>
         </div>
       </div>
     </section>
@@ -141,7 +155,9 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 d-flex justify-content-center">
-              <h1 id="skill-head">SKILLS</h1>
+              <h1 id="skill-head" data-aos="fade-up" data-aos-duration="1000">
+                SKILLS
+              </h1>
             </div>
             <div class="row">
               <div class="col-md-2"></div>
@@ -234,9 +250,16 @@
       ></path>
     </svg>  -->
     <section>
-      <div id="stop3"></div>
+      <div id="stop4"></div>
       <div class="section_4">
-        <h1 id="contactMe" class="d-flex justify-content-center">CONTACT</h1>
+        <h1
+          id="contactMe"
+          class="d-flex justify-content-center"
+          data-aos="fade-up"
+          data-aos-duration="800"
+        >
+          CONTACT
+        </h1>
         <div class="container">
           <div class="row">
             <div class="col-md-3"></div>
@@ -332,12 +355,12 @@
       </div>
     </footer>
 
-    <!-- <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js">
       AOS.init();
     </script>
     <script>
       AOS.init();
-    </script> -->
+    </script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
 
