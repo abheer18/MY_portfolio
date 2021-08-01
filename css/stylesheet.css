@@ -107,8 +107,6 @@
   font-family: "Encode Sans SC", sans-serif;
 }
 
-
-
 .progress {
   margin-bottom: 20px;
 }
@@ -154,24 +152,23 @@ h5 {
   letter-spacing: 4px;
 }
 
-.contact-form{
+.contact-form {
   background-color: rgba(173, 173, 173, 0.486);
   margin-bottom: 20px;
   width: 550px;
 }
-.form-control{
-background-color:#c7c7c7;
-color: rgb(29, 27, 27);
+.form-control {
+  background-color: #c7c7c7;
+  color: rgb(29, 27, 27);
   border: none;
-  
 }
 
-.floatingInput{
+.floatingInput {
   font-size: 10px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.placeholder{
+.placeholder {
   color: #fff;
 }
 
